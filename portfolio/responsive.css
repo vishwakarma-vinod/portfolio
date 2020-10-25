@@ -1,0 +1,84 @@
+@media only screen and (max-width: 998px) {
+  .sub-section {
+    background: #373a3b;
+    padding: 48px;
+    box-shadow: 1px 1px 1px 2px #242627;
+  }
+}
+
+@media only screen and (max-width: 987px) {
+  .sub-section {
+    background: #373a3b;
+    padding: 45px;
+    box-shadow: 1px 1px 1px 2px #242627;
+  }
+}
+
+@media only screen and (max-width: 968px) {
+  .sub-section {
+    background: #373a3b;
+    padding: 44px;
+    box-shadow: 1px 1px 1px 2px #242627;
+  }
+}
+
+@media only screen and (max-width: 963px) {
+  .main-services-section-2 {
+    /* width: 1200px; */
+    /* margin: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 828px) {
+  .logo {
+    font-size: 3rem;
+    font-weight: 800;
+    color: azure;
+    font-style: italic;
+    font-family: "Turret Road", cursive;
+  }
+
+  .main-nav-logo {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
+  .name-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 772px) {
+  .about-sub-section-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .about-me-paragraph {
+    font-size: 0.95rem;
+    font-weight: 200;
+    color: #fff;
+    width: 400px;
+    line-height: 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .main-nav {
+    /* margin-top: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}

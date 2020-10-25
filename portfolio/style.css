@@ -1,0 +1,388 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Commissioner", sans-serif;
+  background: #242627;
+}
+
+/* .container {
+} */
+
+.main-nav {
+  /* margin-top: 20px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* .header-list-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+} */
+.logo {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: azure;
+  font-style: italic;
+  font-family: "Turret Road", cursive;
+}
+
+/* .icon-1 {
+  width: 8rem;
+  padding: 25px;
+} */
+
+.second-nav-item {
+  background: #373a3b;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-lists {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list-item {
+  display: inline-flex;
+  padding: 8px 16px;
+}
+
+.main-nav-logo {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.main-nav-links {
+  color: azure;
+  text-decoration: none;
+  font-family: "Turret Road", cursive;
+  font-weight: 200;
+}
+span {
+  color: #ec3609;
+}
+
+.main-nav-links:hover {
+  color: #ec3609;
+  transition: 0.5s;
+}
+
+.main-section {
+  /* width: 1200px; */
+  /* margin: auto; */
+  background: #212324;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+}
+
+.main-image {
+  width: 350px;
+  height: auto;
+}
+
+.name-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.name-section-heading {
+  font-size: 4.5rem;
+  color: azure;
+  padding-bottom: 2rem;
+  font-weight: 400;
+  font-family: "Turret Road", cursive;
+  text-align: center;
+  margin-left: 8px;
+}
+
+.profile {
+  color: azure;
+  font-family: "Turret Road", cursive;
+  font-weight: 200;
+  font-stretch: wider;
+  margin-left: 8px;
+}
+
+.main-section-lists {
+  list-style: none;
+}
+
+.section-icon-list {
+  padding: 10px;
+  display: inline-block;
+}
+.fab {
+  color: #fff;
+  border: 2px solid #ec3609;
+  width: 25px;
+  height: auto;
+  text-align: center;
+  padding: 4px 2px;
+  margin: auto;
+}
+
+.button {
+  margin-top: 20px;
+  margin-left: 8px;
+}
+
+.button-cta {
+  padding: 8px 16px;
+  font-family: "Turret Road", cursive;
+  outline: none;
+  border: #ec3609 2px solid;
+  background: none;
+  color: #fff;
+  margin-right: 15px;
+}
+
+.button-cta:hover,
+.button-cta:active {
+  color: #242627;
+  background: #fff;
+  transition: 0.5s;
+  /* border: none; */
+}
+
+.video {
+  background: #ec3609;
+}
+
+.services {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.main-services-section-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.main-services-heading {
+  text-transform: uppercase;
+  color: #ec3609;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.main-services-title {
+  font-size: 1.8rem;
+  font-family: "Turret Road", cursive;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.main-services-desc {
+  text-align: center;
+  width: 500px;
+  margin: auto;
+  color: #fff;
+  font-weight: 100;
+}
+
+.line {
+  width: 80px;
+  height: 3.5px;
+  background: #ec3609;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.main-services-section-2 {
+  /* width: 1200px; */
+  /* margin: auto; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+}
+
+.sub-section {
+  background: #373a3b;
+  padding: 50px;
+  box-shadow: 1px 1px 1px 2px #242627;
+}
+
+.fa {
+  color: #ec3609;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.services-hedline {
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin-bottom: 5px;
+  font-family: "Turret Road", cursive;
+  color: #fff;
+}
+
+.services-desc-list {
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 100;
+}
+
+.about-me {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-me-sub-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about-sub-section-1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.about-me-heading {
+  color: #ec3609;
+  font-weight: 200;
+  font-size: 1.5rem;
+  font-family: "Turret Road", cursive;
+}
+
+.about-me-paragraph {
+  font-size: 0.95rem;
+  font-weight: 200;
+  color: #fff;
+  width: 500px;
+  line-height: 1.6rem;
+}
+
+.about-me-profile ul {
+  list-style: none;
+}
+
+.about-me-profile li {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.name-placeholder {
+  font-weight: 100;
+  font-size: 1.5rem;
+  color: #ec3609;
+  margin-bottom: 5px;
+  font-family: "Turret Road", cursive;
+}
+
+.name {
+  color: #fff;
+  font-size: 0.85;
+}
+
+.projects {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #373a3b;
+  flex-wrap: wrap;
+}
+
+.projects-btn {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.projects-btn-cta {
+  padding: 8px 16px;
+  font-family: "Turret Road", cursive;
+  outline: none;
+  border: #ec3609 2px solid;
+  background: none;
+  color: #fff;
+  margin-right: 15px;
+}
+
+.projects-btn-cta:hover,
+.projects-btn-cta:active {
+  color: #242627;
+  background: #fff;
+  transition: 0.5s;
+  /* border: none; */
+}
+
+.projects-image {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.projects-image-list {
+  width: 350px;
+  padding: 8px;
+}
+
+.main-footer {
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-lists {
+  list-style: none;
+  padding: 20px;
+}
+
+.footer-list-item {
+  display: inline-flex;
+}
+
+.main-footer-links {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px;
+  font-family: "Turret Road", cursive;
+  font-weight: 200;
+}
+
+.main-footer-links:hover,
+.main-footer-links:active {
+  color: #ec3609;
+  transition: 0.5s;
+}
