@@ -72,6 +72,27 @@
   }
 }
 
+@media only screen and (max-width: 577px) {
+  .nav-list-item {
+    display: inline-block;
+    padding: 8px 16px;
+  }
+
+  .main-nav-links {
+    color: azure;
+    text-decoration: none;
+    font-family: "Turret Road", cursive;
+    font-weight: 200;
+  }
+
+  .nav-lists {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+}
+
 @media only screen and (max-width: 360px) {
   .main-nav {
     /* margin-top: 20px; */
