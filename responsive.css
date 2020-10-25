@@ -93,6 +93,65 @@
   }
 }
 
+@media only screen and (max-width: 480px) {
+  .main-services-desc {
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    color: #fff;
+    font-weight: 100;
+    text-align: center;
+  }
+
+  .projects-btn-cta {
+    padding: 8px 16px;
+    font-family: "Turret Road", cursive;
+    outline: none;
+    border: #ec3609 2px solid;
+    background: none;
+    color: #fff;
+    margin: 10px;
+  }
+
+  .about-me-profile ul {
+    list-style: none;
+    text-align: center;
+  }
+
+  .profile {
+    color: azure;
+    font-family: "Turret Road", cursive;
+    font-weight: 200;
+    font-stretch: wider;
+    margin-left: 8px;
+    text-align: center;
+  }
+
+  .about-me-paragraph {
+    font-size: 0.95rem;
+    font-weight: 200;
+    color: #fff;
+    width: 300px;
+    line-height: 1.6rem;
+    text-align: center;
+  }
+
+  .footer-lists {
+    list-style: none;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .main-footer-links {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px;
+    font-family: "Turret Road", cursive;
+    font-weight: 200;
+    text-align: center;
+  }
+}
+
 @media only screen and (max-width: 360px) {
   .main-nav {
     /* margin-top: 20px; */
